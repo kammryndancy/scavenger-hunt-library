@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import ScavengerHuntForm from './ScavengerHuntForm';
 import ScavengerHuntList from './ScavengerHuntList';
-import { generateScavengerHuntItems } from './utils/scavengerHuntGenerator';
+import { generateScavengerHuntItems } from '../../utils/scavengerHuntGenerator';
 
 const AppContainer = styled.div`
   max-width: 800px;
